@@ -1,0 +1,65 @@
+.header{
+    background: #fff;
+    display: flex;
+    justify-content: space-between; 
+    padding: 30px 20px;
+}
+.mainHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoWrapper{
+    margin-right: 60px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar span{
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+}
+.homeHover{
+    position: absolute;
+    top: 80%;
+    left: 16%;
+    background-color: white;
+    width: 150px;
+    display: none;
+    cursor: pointer;
+}
+.home:hover .homeHover{
+    display: block;
+}
+.homeHover div{
+    width: 100%;
+    padding: 0% 5%;
+}
+.leftMenu{
+    margin-right: 0px;
+    margin-top: 5px;
+}
+.leftMenu span{
+    padding: 10px;
+}
+
+@media (min-width: 576px){
+
+}
+
+@media (min-width: 768px){
+
+}
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 1200px){
+
+}

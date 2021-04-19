@@ -1,0 +1,160 @@
+.container{
+    position: relative;
+    height: 860px;
+    width: 1710px;
+    left: 2%;
+    transform-origin: 0px 0px;
+    transform: scale(0.85);
+    background-image: url('https://apollotran.com/demo/at_auros/themes/at_auros/assets/img/modules/leoslideshow/h1-slide1.jpg');
+} 
+ .mainContainer{
+    position: absolute;
+    left: 15%;
+    top: 25%;
+} 
+.lightning{
+    display: flex;
+    flex-direction: row;
+}
+.lightning p{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.etna h1{
+    letter-spacing: 4.5px;
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+.etna p{
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    color: #222;
+    z-index: 1;
+    text-shadow: none;
+    border: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    white-space: nowrap;
+}
+.btnWrapper button{
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.32px;
+    padding: 17px 51px;
+    color: #222;
+    border: 2px solid;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 40px;
+    background-color: transparent;
+}
+.btnWrapper button:hover{
+    background-color: tomato;
+    border: none;
+}
+.container1{
+    position: relative;
+    width: 1710px;
+    left: 2%;
+    transform-origin: 0px 0px;
+    transform: scale(0.85);
+    margin-top: -50px;
+}
+.itemWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.itemContainer{
+    width: 50%;
+    height: 500px;
+    margin: 0px 10px;
+    overflow: hidden;
+    position: relative;
+}
+.item{
+    background-image: url("https://apollotran.com/demo/at_auros/themes/at_auros/assets/img/modules/appagebuilder/icon/h1-bn-1.jpg");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    height: 500px;
+}
+.div{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+.itemContainer:hover{
+    color: tomato;
+}
+.item:hover{
+    transform: scale(1.3, 1.3);
+    transition: all 0.3s ease-in-out;
+    color: tomato;
+}
+.item1{
+    background-image: url("https://apollotran.com/demo/at_auros/themes/at_auros/assets/img/modules/appagebuilder/icon/h1-bn-2.jpg");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    height: 500px;
+}
+.item1:hover{
+    transform: scale(1.3, 1.3);
+    transition: all 0.3s ease-in-out;
+    color: tomato;
+}
+.productSection{
+    padding: 0% 2%;
+}
+.titleWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleWrapper p{
+    text-align: center;
+}
+.productsWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.productItem{
+    width: 23%;
+    margin: 10px;
+    position: relative;
+}
+.productImage{
+    background-image: url('https://apollotran.com/demo/at_auros/25-home_default/hummingbird-printed-t-shirt.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    height: 400px;
+}
+.newText{
+    position: absolute;
+    top: 1%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0% 1%;
+}
+.priceDetails{
+    text-align: center;
+    margin-top: 5px;
+}
+.productItem:hover .productImage {
+    background-image: url('https://apollotran.com/demo/at_auros/24-home_default/hummingbird-printed-t-shirt.jpg');
+}
+.cartDetails{
+    position: absolute;
+    bottom: 17%;
+    padding: 4%;
+}
